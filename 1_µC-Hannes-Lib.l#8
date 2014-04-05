@@ -2304,10 +2304,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <pad name="39" x="1" y="11" drill="0.8" rot="R90"/>
 <pad name="37" x="3" y="11" drill="0.8" rot="R90"/>
 <pad name="35" x="5" y="11" drill="0.8" rot="R90"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="21"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-13" y1="13" x2="13" y2="13" width="0.127" layer="21"/>
+<wire x1="13" y1="13" x2="13" y2="-13" width="0.127" layer="21"/>
+<wire x1="13" y1="-13" x2="-13" y2="-13" width="0.127" layer="21"/>
+<wire x1="-13" y1="-13" x2="-13" y2="13" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

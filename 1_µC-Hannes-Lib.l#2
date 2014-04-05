@@ -4790,7 +4790,7 @@ Pollin: 130 963
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED">
+<deviceset name="LED" prefix="LED">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>

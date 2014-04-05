@@ -4813,7 +4813,7 @@ Pollin: 130 963
 <technology name=""/>
 </technologies>
 </device>
-<device name="5MM-SMD-L" package="LED3MM-SMDL">
+<device name="3MM-SMD-L" package="LED3MM-SMDL">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
