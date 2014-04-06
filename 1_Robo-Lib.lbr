@@ -2358,6 +2358,58 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <text x="-5.715" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.715" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SSOP20">
+<description>&lt;b&gt;Small Shrink Outline Package&lt;/b&gt;
+20-Pin (210-MIL) SSOP&lt;br&gt;
+Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
+<wire x1="-3.419" y1="-2.415" x2="3.42" y2="-2.415" width="0.1524" layer="21"/>
+<wire x1="3.42" y1="2.415" x2="3.42" y2="-2.415" width="0.1524" layer="21"/>
+<wire x1="3.42" y1="2.415" x2="-3.419" y2="2.415" width="0.1524" layer="21"/>
+<wire x1="-3.419" y1="-2.415" x2="-3.419" y2="2.415" width="0.1524" layer="21"/>
+<circle x="-2.349" y="-1.397" radius="0.635" width="0.1524" layer="21"/>
+<smd name="1" x="-2.925" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="2" x="-2.275" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="3" x="-1.625" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="4" x="-0.975" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="5" x="-0.325" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="6" x="0.325" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="7" x="0.975" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="8" x="1.625" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="9" x="2.275" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="10" x="2.925" y="-3.5" dx="0.38" dy="1.4" layer="1"/>
+<smd name="11" x="2.925" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="12" x="2.275" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="13" x="1.625" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="14" x="0.975" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="15" x="0.325" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="16" x="-0.325" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="17" x="-0.975" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="18" x="-1.625" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="19" x="-2.275" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<smd name="20" x="-2.925" y="3.5" dx="0.38" dy="1.4" layer="1" rot="R180"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.175" y="0" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.425" y1="-4.05" x2="-0.225" y2="-2.475" layer="51"/>
+<rectangle x1="0.225" y1="-4.05" x2="0.425" y2="-2.475" layer="51"/>
+<rectangle x1="-1.075" y1="-4.05" x2="-0.875" y2="-2.475" layer="51"/>
+<rectangle x1="-1.725" y1="-4.05" x2="-1.525" y2="-2.475" layer="51"/>
+<rectangle x1="-2.375" y1="-4.05" x2="-2.175" y2="-2.475" layer="51"/>
+<rectangle x1="-3.025" y1="-4.05" x2="-2.825" y2="-2.475" layer="51"/>
+<rectangle x1="0.875" y1="-4.05" x2="1.075" y2="-2.475" layer="51"/>
+<rectangle x1="1.525" y1="-4.05" x2="1.725" y2="-2.475" layer="51"/>
+<rectangle x1="2.175" y1="-4.05" x2="2.375" y2="-2.475" layer="51"/>
+<rectangle x1="2.825" y1="-4.05" x2="3.025" y2="-2.475" layer="51"/>
+<rectangle x1="0.225" y1="2.475" x2="0.425" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="-0.425" y1="2.475" x2="-0.225" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="0.875" y1="2.475" x2="1.075" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="1.525" y1="2.475" x2="1.725" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="2.175" y1="2.475" x2="2.375" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="2.825" y1="2.475" x2="3.025" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="-1.075" y1="2.475" x2="-0.875" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="-1.725" y1="2.475" x2="-1.525" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="-2.375" y1="2.475" x2="-2.175" y2="4.05" layer="51" rot="R180"/>
+<rectangle x1="-3.025" y1="2.475" x2="-2.825" y2="4.05" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NEON">
@@ -3532,6 +3584,34 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="MAX1112">
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="18.542" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="CH0" x="-17.78" y="15.24" length="middle" direction="in"/>
+<pin name="!CS" x="17.78" y="2.54" length="middle" function="dot" rot="R180"/>
+<pin name="AGND" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="CH1" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="CH2" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="CH3" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="CH4" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="CH5" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="CH6" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="CH7" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="SCLK" x="17.78" y="5.08" length="middle" function="clk" rot="R180"/>
+<pin name="DIN" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="DOUT" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="SSTRB" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="REFIN" x="-17.78" y="-7.62" length="middle"/>
+<pin name="REFOUT" x="-17.78" y="-10.16" length="middle"/>
+<pin name="!SHDN" x="17.78" y="-10.16" length="middle" function="dot" rot="R180"/>
+<pin name="COM" x="-17.78" y="-15.24" length="middle" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4821,6 +4901,74 @@ Pollin: 130 963
 <connects>
 <connect gate="G$1" pin="C" pad="K"/>
 <connect gate="G$1" pin="E" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX1112" prefix="IC">
+<description>&lt;b&gt;MAX1112/MAX1113&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+The MAX1112/MAX1113 low-power, 8-bit, 8-channel analog-to-digital converters (ADCs) feature an internal
+track/hold, voltage reference, clock, and serial interface.
+They operate from a single 4.5V to 5.5V supply
+and consume only 135μA while sampling at rates up to
+50ksps. The MAX1112's 8 analog inputs and the
+MAX1113's 4 analog inputs are software-configurable,
+allowing unipolar/bipolar and single-ended/differential
+operation.&lt;br&gt;&lt;br&gt;
+
+Successive-approximation conversions are performed
+using either the internal clock or an external serial-interface
+clock. The full-scale analog input range is determined
+by the 4.096V internal reference, or by an
+externally applied reference ranging from 1V to V&lt;sub&gt;DD&lt;/sub&gt;.
+The 4-wire serial interface is compatible with the SPI™,
+QSPI™, and MICROWIRE™ serial-interface standards.
+A serial-strobe output provides the end-of-conversion
+signal for interrupt-driven processors.&lt;br&gt;&lt;br&gt;
+
+The MAX1112/MAX1113 have a software-programmable,
+2µA automatic power-down mode to minimize
+power consumption. Using power-down, the supply
+current is reduced to 13µA at 1ksps, and only 82µA at
+10ksps. Power-down can also be controlled using the
+active-low SHDN input pin. Accessing the serial interface automatically
+powers up the device.&lt;br&gt;&lt;br&gt;
+
+The MAX1112 is available in a 20-pin SSOP package.
+The MAX1113 is available in a small 16-pin QSOP
+package.&lt;br&gt;&lt;br&gt;
+
+&lt;a href=http://datasheets.maximintegrated.com/en/ds/MAX1112-MAX1113.pdf&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX1112" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP20">
+<connects>
+<connect gate="G$1" pin="!CS" pad="18"/>
+<connect gate="G$1" pin="!SHDN" pad="10"/>
+<connect gate="G$1" pin="AGND" pad="13"/>
+<connect gate="G$1" pin="CH0" pad="1"/>
+<connect gate="G$1" pin="CH1" pad="2"/>
+<connect gate="G$1" pin="CH2" pad="3"/>
+<connect gate="G$1" pin="CH3" pad="4"/>
+<connect gate="G$1" pin="CH4" pad="5"/>
+<connect gate="G$1" pin="CH5" pad="6"/>
+<connect gate="G$1" pin="CH6" pad="7"/>
+<connect gate="G$1" pin="CH7" pad="8"/>
+<connect gate="G$1" pin="COM" pad="9"/>
+<connect gate="G$1" pin="DIN" pad="17"/>
+<connect gate="G$1" pin="DOUT" pad="15"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="REFIN" pad="11"/>
+<connect gate="G$1" pin="REFOUT" pad="12"/>
+<connect gate="G$1" pin="SCLK" pad="19"/>
+<connect gate="G$1" pin="SSTRB" pad="16"/>
+<connect gate="G$1" pin="VDD" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
