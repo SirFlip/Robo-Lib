@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -103,15 +103,12 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola &lt;i&gt;CMOS LOGIC DATA&lt;/i&gt;; book, 02/88, DL131 REV 1
-&lt;li&gt;http://www.elexp.com
-&lt;li&gt;http://www.intersil.com
-&lt;li&gt;http://www.ls3c.com.tw/product/1/COMOS.html
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<description>&lt;b&gt;Robo Lib BZM Markdorf Components lib&lt;/b&gt;&lt;br&gt;
+
+
+
+
+&lt;author&gt;Created by Bodenseefische&lt;/author&gt;</description>
 <packages>
 <package name="NEON">
 <description>2Pin Connector</description>
