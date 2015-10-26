@@ -4175,7 +4175,7 @@ Dieses Package ist nicht 100% komatibel mit dem Bisherigen.</description>
 <vertex x="1.778" y="2.921"/>
 </polygon>
 </symbol>
-<symbol name="78XX">
+<symbol name="V-REG">
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
@@ -5356,18 +5356,6 @@ Dieses Package ist nicht 100% komatibel mit dem Bisherigen.</description>
 <text x="-7.62" y="16.002" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-16.002" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
 </symbol>
-<symbol name="TSR-1">
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="VI" x="-10.16" y="0" length="short" direction="sup"/>
-<pin name="VO" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
-<text x="-7.62" y="5.461" size="1.6764" layer="95">&gt;NAME</text>
-<text x="-7.62" y="3.175" size="1.6764" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NEON" prefix="NEON">
@@ -5831,7 +5819,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <deviceset name="V_MODUL" prefix="VR" uservalue="yes">
 <description>&lt;b&gt;VOLTAGE REFERENCE&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="78XX" x="0" y="0"/>
+<gate name="A" symbol="V-REG" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="VREG_MODUL">
@@ -7366,7 +7354,7 @@ HC06</description>
 HHN Hochschule Heilbronn, rainer.bayer@hs-heilbronn.de&lt;br /&gt;
 Ingenieurb&amp;uuml;ro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
 <gates>
-<gate name="G$1" symbol="TSR-1" x="0" y="0"/>
+<gate name="G$1" symbol="V-REG" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TSR-1">
